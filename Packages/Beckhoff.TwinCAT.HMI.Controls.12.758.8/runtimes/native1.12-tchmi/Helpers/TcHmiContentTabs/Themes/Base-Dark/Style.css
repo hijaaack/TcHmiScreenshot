@@ -1,0 +1,29 @@
+tchmi-content-tabs {
+    background: #1e1e1e;
+}
+
+tchmi-content-tabs tchmi-tab-contents {
+    border: 1px solid #444;
+    border-top: none;
+    background: black;
+}
+
+tchmi-content-tabs tchmi-tab-links tchmi-tab-link {
+    color: #4c6374;
+    border-bottom: 1px solid #444;
+}
+
+tchmi-content-tabs tchmi-tab-links tchmi-tab-link:not([disabled])[active] {
+    background: black;
+    color: #2775be;
+    border: 1px solid #444;
+    border-bottom: none;
+}
+
+tchmi-content-tabs tchmi-tab-links > tchmi-tab-link:not([disabled]):hover {
+    background: black;
+}
+
+tchmi-content-tabs tchmi-tab-links > tchmi-tab-link[disabled] {
+    color: #3c4e5b;
+}
