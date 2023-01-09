@@ -7,7 +7,7 @@
         var TcHmiProjectScreenshot;
         (function (TcHmiProjectScreenshot) {
             function F_SaveScreenshot() {
-
+                console.log("hej");
                 //This will make a screenshot of the whole Desktop view. You can read in other elements and make a screenshot of a specific element if needed.
                 var node = document.getElementById('Desktop'); 
 

@@ -13,18 +13,14 @@
         "objectType": "Function",
         "active": true,
         "fn": "TcHmi.Functions.TcHmiProjectScreenshot.F_SaveScreenshot",
-        "fnParams": [
-          {
-            "objectType": "StaticValue",
-            "valueType": "tchmi:general#/definitions/Number",
-            "value": null
-          }
-        ],
+        "fnParams": [],
         "asyncWait": true
       }
     ]
   }
 ]
 </script>
+</div>
+<div id="TcHmiTextblock" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="FileSaver will not work in the embedded LiveView browser. " data-tchmi-top="147" data-tchmi-top-unit="px" data-tchmi-width="364" data-tchmi-width-unit="px" data-tchmi-word-wrap="true">
 </div>
 </div>
