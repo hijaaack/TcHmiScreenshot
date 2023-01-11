@@ -23,4 +23,24 @@
 </div>
 <div id="TcHmiTextblock" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="FileSaver will not work in the embedded LiveView browser. " data-tchmi-top="147" data-tchmi-top-unit="px" data-tchmi-width="364" data-tchmi-width-unit="px" data-tchmi-word-wrap="true">
 </div>
+<div id="TcHmiButton_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="Save Screenshot To VirtualDirectory" data-tchmi-top="255" data-tchmi-top-unit="px" data-tchmi-width="214" data-tchmi-width-unit="px" data-tchmi-word-wrap="true">
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "TcHmiButton_1.onPressed",
+    "actions": [
+      {
+        "objectType": "Function",
+        "active": true,
+        "fn": "TcHmi.Functions.TcHmiProjectScreenshot.F_SaveScreenshotVirtualDir",
+        "fnParams": [],
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="TcHmiTextblock_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="41" data-tchmi-height-unit="px" data-tchmi-left="20" data-tchmi-left-unit="px" data-tchmi-text="Saves the screenshot to C:\test, with the virtual path /test, this is configured under TcHmiSrv" data-tchmi-top="315" data-tchmi-top-unit="px" data-tchmi-width="384" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-ignore-escape-sequences="true">
+</div>
 </div>

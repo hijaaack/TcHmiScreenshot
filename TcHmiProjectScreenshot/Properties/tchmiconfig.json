@@ -63,6 +63,11 @@
       "name": "JS/F_SaveScreenshot.js",
       "description": "",
       "type": "JavaScript"
+    },
+    {
+      "name": "JS/F_SaveScreenshotVirtualDir.js",
+      "description": "",
+      "type": "JavaScript"
     }
   ],
   "userControls": [],
@@ -78,6 +83,9 @@
   "userFunctions": [
     {
       "url": "JS/F_SaveScreenshot.js"
+    },
+    {
+      "url": "JS/F_SaveScreenshotVirtualDir.js"
     }
   ],
   "symbols": {

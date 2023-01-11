@@ -1,0 +1,32 @@
+﻿{
+  "function": {
+    "name": "F_SaveScreenshotVirtualDir",
+    "namespace": "TcHmi.Functions.TcHmiProjectScreenshot",
+    "displayName": "F_SaveScreenshotVirtualDir",
+    "description": "",
+    "waitMode": "Synchronous",
+    "category": "",
+    "returnValue": {
+      "type": "tchmi:general#/definitions/String"
+    },
+    "visible": true,
+    "injectContextObject": false,
+    "arguments": []
+  },
+  "$schema": "./../../Packages/Beckhoff.TwinCAT.HMI.Framework.12.758.8/runtimes/native1.12-tchmi/Schema/FunctionDescription.Schema.json",
+  "apiVersion": 1,
+  "version": {
+    "full": "0.0.0.0",
+    "major": 0,
+    "minor": 0,
+    "revision": 0,
+    "build": 0
+  },
+  "dependencyFiles": [
+    {
+      "name": "F_SaveScreenshotVirtualDir.js",
+      "type": "JavaScript",
+      "description": ""
+    }
+  ]
+}

@@ -142,6 +142,13 @@
     <Content Include="JS\F_SaveScreenshot.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="JS\F_SaveScreenshotVirtualDir.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>JS\F_SaveScreenshotVirtualDir.js</DependentUpon>
+    </Content>
+    <Content Include="JS\F_SaveScreenshotVirtualDir.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Server\TcHmiLua\TcHmiLua.Config.default.json">
       <SubType>Content</SubType>
       <Visible>True</Visible>
