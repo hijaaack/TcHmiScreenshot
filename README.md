@@ -10,3 +10,5 @@ Sources used:
 dom-to-image: https://github.com/tsayen/dom-to-image
 
 fileSaver: https://github.com/eligrey/FileSaver.js/
+
+html2canvas: https://github.com/niklasvh/html2canvas
